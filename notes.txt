@@ -1,0 +1,31 @@
+mkdir pytut
+cd pytut
+
+# create virtualenv
+virtualenv venv
+
+# Activate the env
+venv\scripts\activate
+
+# install libraries
+
+pip install pandas
+
+# freeze your dependent libraries
+pip freeze > requirements.txt
+
+# install from requirements.txt
+pip install -r requirements.txt
+
+# create .gitingore
+
+# git commands
+
+# inside folder pytut, initialize git
+git init
+
+git add .
+
+git commit -m "my commit"
+
+git push
